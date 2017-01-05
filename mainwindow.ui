@@ -28,6 +28,7 @@
      <string>文件</string>
     </property>
     <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
     <addaction name="actionSave"/>
    </widget>
    <widget class="QMenu" name="menu_2">
@@ -71,6 +72,15 @@
    </property>
    <property name="toolTip">
     <string>保存</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="firstg.qrc">
+     <normaloff>:/default/images/new_32.png</normaloff>:/default/images/new_32.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
    </property>
   </action>
  </widget>

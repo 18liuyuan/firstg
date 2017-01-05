@@ -20,6 +20,15 @@ private slots:
 
     void on_actionSave_triggered();
 
+    void on_actionOpen_triggered();
+
+public slots:
+    void on_exit();
+
+signals:
+    void exit();
+
+
 private:
     Ui::MainWindow *ui;
 };
